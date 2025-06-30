@@ -1,8 +1,8 @@
-# 💼 HR Resource Query Chatbot
+#  HR Resource Query Chatbot
 
 A smart chatbot for HR teams to query employee profiles using semantic search and modern AI embeddings.
 
-## 🚀 Overview
+##  Overview
 
 This chatbot helps HR managers quickly find the best-matched employees based on:
 - Skills
@@ -15,7 +15,7 @@ Built with:
 - Semantic similarity search
 - Gradio for web interface
 
-## ✨ Features
+##  Features
 
 ✅ Free-text search  
 ✅ Skill filter  
@@ -24,14 +24,14 @@ Built with:
 ✅ Natural language output describing matching employees  
 ✅ Deployable to Hugging Face Spaces
 
-## 🛠️ Architecture
+##  Architecture
 
 - **Frontend/UI**: Gradio web app
 - **Embeddings**: `all-MiniLM-L6-v2` model via `sentence-transformers`
 - **Similarity search**: Cosine similarity with sklearn
 - **Data storage**: In-memory pandas DataFrame
 
-## ⚙️ Setup & Installation
+##  Setup & Installation
 
 Clone the repo:
 
